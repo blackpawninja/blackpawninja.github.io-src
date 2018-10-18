@@ -1,0 +1,1 @@
+exclude: ["Gemfile", "Vagrantfile", "README.md", "*.sh"]

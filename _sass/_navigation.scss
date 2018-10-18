@@ -1,0 +1,26 @@
+@import "variable";
+
+.main-nav {
+  ul {
+    list-style-type: none;
+    padding-left: 10px;
+    text-align: right;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 25px;
+  }
+
+  @media screen and (min-width: $screen-tablet-min) {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+
+    a:hover {
+      //font-size: 28px;
+    }
+  }
+
+  @media screen and (max-width: $screen-phone-max) {}
+}

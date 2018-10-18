@@ -1,0 +1,6 @@
+$screen-phone-max: 543px;
+
+$screen-tablet-min: 766px;
+
+$screen-phone-landscape-min: $screen-phone-max + 1;
+$screen-phone-landscape-max: $screen-tablet-min - 1;
